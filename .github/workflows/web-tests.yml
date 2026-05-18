@@ -1,6 +1,7 @@
 name: Web UI Tests
 on:
   workflow_call:
+  workflow_dispatch:
 
 jobs:
   test:
