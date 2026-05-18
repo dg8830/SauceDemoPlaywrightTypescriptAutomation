@@ -1,0 +1,11 @@
+name: All Tests (Web + API)
+on:
+  push:
+  pull_request:
+
+jobs:
+  web:
+    uses: ./.github/workflows/web-tests.yml
+
+  api:
+    uses: ./.github/workflows/api-tests.yml

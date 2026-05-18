@@ -1,0 +1,25 @@
+{
+    "name": "playwright-ts-web-api-framework",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Playwright + TypeScript framework for Web UI and API testing (SauceDemo + Restful-Booker).",
+    "license": "MIT",
+    "scripts": {
+        "smoke": "playwright test --grep=@smoke",
+        "test": "playwright test",
+        "test:web": "playwright test --project=web",
+        "test:api": "playwright test --project=api",
+        "test:all": "playwright test --project=all",
+        "test:ui": "playwright test --ui"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "ajv": "^8.17.1"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.48.2",
+        "@types/node": "^22.10.2",
+        "allure-playwright": "^3.8.0",
+        "typescript": "^5.6.3"
+    }
+}
