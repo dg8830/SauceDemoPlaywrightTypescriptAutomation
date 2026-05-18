@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Playwright TypeScript Automation Framework (Web UI + API)
 
 ## 1) Project Overview
@@ -208,13 +207,3 @@ HTML reports are uploaded as artifacts from `playwright-report/`.
 - Use locators that wait for visibility (`expect(locator).toBeVisible()` pattern).
 
 ---
-
-## 12) Future Enhancements (Optional)
-- Add real JSON schema validations per endpoint (Ajv schemas for each response)
-- Improve invalid-product negative test into a deterministic assertion
-- Add Playwright test fixtures to standardize login/API auth across specs
-- Add Allure reporting integration (currently Ajv + HTML/list reporters scaffolded)
-=======
-# SauceDemoPlaywrightTypescriptAutomation
-Web and API automation Framework
->>>>>>> efa789a344eadb726ec7f6422cd053028612a9ea
