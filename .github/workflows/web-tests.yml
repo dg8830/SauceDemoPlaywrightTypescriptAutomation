@@ -1,7 +1,6 @@
 name: Web UI Tests
 on:
-  push:
-  pull_request:
+  workflow_call:
 
 jobs:
   test:
